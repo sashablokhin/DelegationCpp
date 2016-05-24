@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AB30E7581CF4550B00C985B2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB30E7571CF4550B00C985B2 /* main.cpp */; };
+		AB30E7621CF4560C00C985B2 /* Doctor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB30E75E1CF4560C00C985B2 /* Doctor.cpp */; };
+		AB30E7631CF4560C00C985B2 /* Patient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB30E7601CF4560C00C985B2 /* Patient.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		AB30E7541CF4550B00C985B2 /* Delegation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Delegation; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB30E7571CF4550B00C985B2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AB30E75E1CF4560C00C985B2 /* Doctor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Doctor.cpp; sourceTree = "<group>"; };
+		AB30E75F1CF4560C00C985B2 /* Doctor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Doctor.hpp; sourceTree = "<group>"; };
+		AB30E7601CF4560C00C985B2 /* Patient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Patient.cpp; sourceTree = "<group>"; };
+		AB30E7611CF4560C00C985B2 /* Patient.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Patient.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				AB30E7571CF4550B00C985B2 /* main.cpp */,
+				AB30E75E1CF4560C00C985B2 /* Doctor.cpp */,
+				AB30E75F1CF4560C00C985B2 /* Doctor.hpp */,
+				AB30E7601CF4560C00C985B2 /* Patient.cpp */,
+				AB30E7611CF4560C00C985B2 /* Patient.hpp */,
 			);
 			path = Delegation;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB30E7631CF4560C00C985B2 /* Patient.cpp in Sources */,
+				AB30E7621CF4560C00C985B2 /* Doctor.cpp in Sources */,
 				AB30E7581CF4550B00C985B2 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
